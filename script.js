@@ -65,3 +65,11 @@ form.addEventListener("submit", (e) => {
     window.location.reload();
   }
 });
+// -- Js animation
+window.sr = new ScrollReveal();
+
+sr.reveal('body',{
+  opacity:0,
+  scale:0.7,
+  duration:2000
+})
